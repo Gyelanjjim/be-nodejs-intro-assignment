@@ -1,15 +1,12 @@
 const fileSystem = require("fs"); 
-// require함수를 사용해 (fs)로부터 객체형태로 반환되어 여러 모듈을 fileSystem에 할당
 
-//Read File (Before)
 const rposts = fileSystem.readFileSync("./posts.csv", "utf-8");
 const rusers = fileSystem.readFileSync("./users.csv", "utf-8");
 
-// 1차적 분리: 개행문자 '\n'
 const rpostsDiv = rposts.split("\n");
 const rusersDiv = rusers.split("\n");
 
-function changeChar(str){ // 문자열의 공백을 제거하는 함수를 생성
+function changeChar(str){ 
     const arr = str.split(" ");
     let result="";
     for(let i in arr){

@@ -5,7 +5,7 @@ NodeJS 내장 모듈인 fs(file system)를 활용하여 csv파일에서 데이�
 
 ## 기간📆
 2022.10.25 ~ 2022.10.25 <br />
-2023.01.16 ~ 2023.01.16 (리팩토링)
+2023.01.16, 2023.02.02 (리팩토링)
 
 ## 링크🔗
 - main.js : 리팩토링 전 [기술블로그-결과](https://velog.io/@scroll0908/BackEndAssignment#%EA%B2%B0%EA%B3%BC)
